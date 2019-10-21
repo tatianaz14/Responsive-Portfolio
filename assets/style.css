@@ -221,30 +221,73 @@ footer {
 
                     @media screen and (max-width: 980px) {
                         .container {
-                            width: 720px;
-                            margin: 0 auto;
-                            background-color: black;
-                            color:white;
+                          
+                                width: 100%;
+                                background-color: #333;
+                                color: whitesmoke;
                         }
                         .navbar {
                             width: 100%;
                           background-color:#333;
-                            margin-bottom: 40px;
+                            
                         }
-                        @media screen and (max-width: 768px) {
-                            .container {
-                                width: 600px;
-                                margin: 0 auto;
-                                background-color: black;
-                                color:white;
-                                width: 540px;
-                                padding: 40px 30px 40px 30px;
-                                margin-bottom: 50px;
-                            }
-                            .navbar {
+
+                        .footer {
                                 width: 100%;
-                              background-color:#333;
-                                margin-bottom: 40px;
+                              }
                             }
-                        }
-                    }
+                            @media (max-width: 768px) {
+                                #container {
+                                width: 100%;
+                                background-color: #333;
+                                color: whitesmoke;
+                              }
+                              .navbar {
+                                width: 100%;
+                              }
+                              
+                              .footer {
+                                width: 100%;
+                              }
+                            }
+                            @media (max-width: 640px) {
+                               
+                                #container {
+                                 width: 100%;
+                                
+                                 background-color: #333;
+                                color: whitesmoke;
+                                }
+                                .navbar {
+                                    width: 100%;
+                                  }
+                                  
+                                  .footer {
+                                    width: 100%;
+                                  }
+                                .portfolio {
+                                  width: 100%;
+                                }
+                                ul {
+                                    
+                                    width: 300px;
+                                    margin: 0 150px 0 0;
+                                    padding: 20px;
+                                    
+                                }
+                             
+                               .caption3{
+                                   margin-top:-600px;
+                                   margin-left:50px;
+                               }
+                                .caption4{
+                                    margin-top:-100px;
+                                    margin-left:50px;
+                                }
+                                
+                                h2 {
+                                    text-align:center;
+                                }
+                                }
+                              
+                     
